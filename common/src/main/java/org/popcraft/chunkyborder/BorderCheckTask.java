@@ -72,10 +72,10 @@ public class BorderCheckTask implements Runnable {
                     location.setX(minX + 3);
 
                 } else if (location.getZ() <= minZ) {
-                    location.setZ((location.getZ + 3) * -1);
+                    location.setZ((location.getZ * -1) + 3);
 
                 } else if (location.getZ() >= maxZ) {
-                    location.setZ((location.getZ - 3) * -1);
+                    location.setZ((location.getZ * -1) - 3);
 
                 } else {
 
