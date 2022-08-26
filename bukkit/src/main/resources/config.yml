@@ -5,6 +5,7 @@ border-options:
   check-interval: 20
   message: "&cYou have reached the edge of this world."
   use-action-bar: true
+  earth-border-wrapping: false
   effect: ender_signal
   sound: entity_enderman_teleport
   prevent-mob-spawns: false

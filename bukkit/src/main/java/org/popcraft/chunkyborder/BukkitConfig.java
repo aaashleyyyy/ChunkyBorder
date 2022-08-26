@@ -37,6 +37,11 @@ public class BukkitConfig implements Config {
     }
 
     @Override
+    public boolean earthBorderWrapping() {
+        return chunkyBorderBukkit.getConfig().getBoolean("border-options.earth-border-wrapping", false);
+    }
+
+    @Override
     public String effect() {
         return chunkyBorderBukkit.getConfig().getString("border-options.effect", "ender_signal");
     }

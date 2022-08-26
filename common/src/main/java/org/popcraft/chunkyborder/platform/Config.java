@@ -19,6 +19,8 @@ public interface Config {
 
     boolean preventMobSpawns();
 
+    boolean earthBorderWrapping();
+
     boolean preventEnderpearl();
 
     boolean preventChorusFruit();
